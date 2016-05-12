@@ -26,7 +26,7 @@ def parsePoint(line):
 
 def parsePoint2(line):
     """
-    Parse a line of text into an vector
+    Parse a line of text into an vector, studpid, I will change it
     """
     values = [float(s) for s in line.split('\t')]
     size = len(values)   
@@ -34,7 +34,7 @@ def parsePoint2(line):
 
 def parsePoint3(line):
     """
-    Parse a line of text into an scalar
+    Parse a line of text into an scalar, studpid, I will change it
     """
     values = [float(s) for s in line.split('\t')]
     size = len(values)   
